@@ -339,8 +339,6 @@ h6 {
     display: inline-block;
     color: #000;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
     outline: none;
 }
 
@@ -1212,5 +1210,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-items: center;
     justify-content: center;
 
+}
+
+::marker{
+    color: #516cd8;
+    font-size: 1.25rem;
 }
 

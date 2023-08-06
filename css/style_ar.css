@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #dd7320;
+    color: #2f71e0;
     transition: 0.5s;
 }
 
@@ -41,7 +41,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #dd7320;
+    background: #2f71e0;
     color: #fff;
     padding: 6px 12px 9px 12px;
     font-size: 16px;
@@ -52,13 +52,13 @@ h6 {
 }
 
 .back-to-top:focus {
-    background: #dd7320;
+    background: #2f71e0;
     color: #fff;
     outline: none;
 }
 
 .back-to-top:hover {
-    background: #0c2e8a;
+    background: #0c5bdb;
     color: #fff;
 }
 
@@ -79,17 +79,17 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #topbar .contact-info i {
-    color: #dd7320;
+    color: #2f71e0;
     padding: 4px;
 }
 
 #topbar .contact-info .fa-phone {
-    padding-left: 20px;
-    margin-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
     border-left: 1px solid #e9e9e9;
 }
 
@@ -98,11 +98,11 @@ h6 {
     padding: 4px 12px;
     display: inline-block;
     line-height: 1px;
-    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
 }
 
 #topbar .social-links a:hover {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #topbar .social-links a:first-child {
@@ -132,13 +132,13 @@ h6 {
 }
 
 #header #logo h1 a {
-    color: #0c2e8a;
+    color: #0c5bdb;
     line-height: 1;
     display: inline-block;
 }
 
 #header #logo h1 a span {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #header #logo img {
@@ -191,14 +191,14 @@ h6 {
 }
 
 #intro .intro-content h2 {
-    color: #0c2e8a;
+    color: #0c5bdb;
     margin-bottom: 30px;
     font-size: 64px;
     font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-    color: #dd7320;
+    color: #2f71e0;
     text-decoration: underline;
 }
 
@@ -217,23 +217,23 @@ h6 {
 }
 
 #intro .intro-content .btn-get-started {
-    background: #0c2e8a;
-    border: 2px solid #0c2e8a;
+    background: #0c5bdb;
+    border: 2px solid #0c5bdb;
 }
 
 #intro .intro-content .btn-get-started:hover {
     background: none;
-    color: #0c2e8a;
+    color: #0c5bdb;
 }
 
 #intro .intro-content .btn-projects {
-    background: #dd7320;
-    border: 2px solid #dd7320;
+    background: #2f71e0;
+    border: 2px solid #2f71e0;
 }
 
 #intro .intro-content .btn-projects:hover {
     background: none;
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #intro #intro-carousel {
@@ -346,7 +346,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 .nav-menu > li {
@@ -374,7 +374,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 .nav-menu ul ul {
@@ -399,7 +399,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-    color: #0c2e8a;
+    color: #0c5bdb;
 }
 
 /* Mobile Nav Styling */
@@ -410,7 +410,7 @@ h6 {
     padding-top: 18px;
     bottom: 0;
     z-index: 998;
-    background: #0c2e8a;
+    background: #0c5bdb;
     left: -260px;
     width: 260px;
     overflow-y: auto;
@@ -458,11 +458,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #mobile-body-overly {
@@ -505,7 +505,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
     font-size: 32px;
-    color: #0c2e8a;
+    color: #0c5bdb;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -518,7 +518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
     width: 50px;
     height: 3px;
-    background: #dd7320;
+    background: #2f71e0;
     bottom: 0;
     right: 0;
 }
@@ -545,7 +545,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-    color: #0c2e8a;
+    color: #0c5bdb;
     font-weight: 700;
     font-size: 36px;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -570,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
     font-size: 20px;
     padding-right: 4px;
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #about .content ul {
@@ -590,7 +590,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .main {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 .top {
@@ -625,8 +625,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-    background: #0c2e8a;
-    background: linear-gradient(45deg, #dd7320 0%, #a3ebd5 100%);
+    background: #0c5bdb;
+    background: linear-gradient(45deg, #2f71e0 0%, #a3ebd5 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -686,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-    background-color: #dd7320;
+    background-color: #2f71e0;
 }
 
 /* Our Portfolio Section
@@ -820,14 +820,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-    background-color: #dd7320;
+    background-color: #2f71e0;
 }
 
 /* Call To Action Section
 --------------------------------*/
 
 #call-to-action {
-    background: #081e5b;
+    background:#2f71e0;
     background-size: cover;
     padding: 40px 0;
 }
@@ -858,8 +858,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-    background: #dd7320;
-    border: 3px solid #dd7320;
+    background: #000000;
+    border: 3px solid #000000;
 }
 
 /* Our Team Section
@@ -885,7 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-    background: #dd7320;
+    background: #2f71e0;
     color: #fff;
     padding: 15px;
     border-radius: 0 0 3px 3px;
@@ -932,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 48px;
     display: inline-block;
     margin-bottom: 10px;
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #contact .contact-info address,
@@ -954,7 +954,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-    color: #dd7320;
+    color: #2f71e0;
 }
 
 #contact .contact-address,
@@ -969,8 +969,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-    color: #dd7320;
-    border: 1px solid #dd7320;
+    color: #2f71e0;
+    border: 1px solid #2f71e0;
     display: none;
     text-align: center;
     padding: 15px;
@@ -1011,7 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-    background: #dd7320;
+    background: #2f71e0;
     border: 0;
     border-radius: 3px;
     padding: 10px 30px;
@@ -1046,7 +1046,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-    color: #0c2e8a;
+    color: #0c5bdb;
 }
 
 @media (min-width: 768px) {
@@ -1158,4 +1158,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .cta-title {
     text-align: right;
+}
+
+.float-left{
+    float: left;
 }

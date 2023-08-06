@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+  var lang = document.documentElement.lang;
 
   // Back to top button
   $(window).scroll(function () {
@@ -137,6 +138,7 @@ jQuery(document).ready(function ($) {
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
+    rtl: lang == 'ar' ? true :false,
     dots: true,
     loop: true,
     responsive: {
@@ -155,6 +157,7 @@ jQuery(document).ready(function ($) {
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
     autoplay: true,
+    rtl: lang == 'ar' ? true :false,
     dots: true,
     loop: true,
     responsive: {

@@ -149,7 +149,7 @@ jQuery(document).ready(function ($) {
         items: 2
       },
       900: {
-        items: 3
+        items: 1
       }
     }
   });

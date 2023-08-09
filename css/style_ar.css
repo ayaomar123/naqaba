@@ -842,7 +842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-    background: #2f71e0;
+    background: #0b50c0;
     background-size: cover;
     padding: 40px 0;
 }
@@ -1355,7 +1355,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 1rem;
 }
 
-.main-text{
+.main-text {
     color: rgb(134 101 191);
 }
 
@@ -1370,6 +1370,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         --eb-progress-value: var(--value);
     }
 }
+
 @keyframes eb-progress {
     to {
         --eb-progress-value: var(--value);
@@ -1395,6 +1396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: radial-gradient(closest-side, var(--inner-bg) 79%, transparent 80% 100%), conic-gradient(var(--primary-color) calc(var(--eb-progress-value) * 1%), var(--secondary-color) 0);
     border-radius: 50%;
 }
+
 .eb-progress-bar-wrapper {
     display: grid;
     place-items: center;
@@ -1402,10 +1404,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 1rem;
     transform: scale(1.5);
 }
+
 .eb-progress-bar, .eb-progress-bar::before {
     -webkit-animation: eb-progress 2s 1 forwards;
     animation: eb-progress 2s 1 forwards;
 }
+
 .eb-progress-bar::before {
     counter-reset: percentage var(--eb-progress-value);
     content: counter(percentage) "%";
@@ -1420,6 +1424,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     border: 1px solid #d0d0d0;
 }
+
 .eb-progress-bar-title {
     text-align: center;
     color: inherit;
@@ -1429,9 +1434,112 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 11px;
     font-weight: 400;
 }
+
 .eb-progress-bar progress {
     visibility: hidden;
     width: 0;
     height: 0;
 }
 
+
+@media (max-width: 768px) {
+    #testimonials .testimonial-item .testimonial-img {
+        width: 100px;
+    }
+}
+
+
+#promotion {
+    padding: 100px 0px;
+}
+
+#promotion .left-image {
+    align-self: center;
+}
+
+#promotion .right-text ul {
+    padding: 0;
+    margin: 0;
+}
+
+#promotion .right-text ul li {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+#promotion .right-text ul li:last-child {
+    margin-bottom: 0px;
+}
+
+#promotion .right-text img {
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+}
+
+#promotion .right-text h4 {
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(to left, #6546be, #3ca6fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+
+@media (min-width: 1200px) {
+    .keep-in-touch .get-started {
+        padding: 3.75rem 3.5625rem;
+    }
+}
+
+.keep-in-touch .get-started {
+    background-color: #0a58ca0d;
+    border-radius: 10px;
+    padding: calc(1.5rem + 3vw) calc(1.48125rem + 2.775vw);
+}
+
+
+@media (min-width: 1200px)
+{
+    .keep-in-touch .download-profile {
+        padding: 3.75rem 3.5625rem;
+    }
+}
+.keep-in-touch .download-profile {
+    position: relative;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: calc(1.5rem + 3vw) calc(1.48125rem + 2.775vw);
+}
+
+.primary-text{
+    color: #0a58ca;
+}
+
+
+.btn-grad {
+    background: linear-gradient(to right, #6546be, #3ca6fc);
+    margin: 10px;
+    padding: 1.125rem calc(1.48125rem + 2.775vw);
+    text-align: center;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
